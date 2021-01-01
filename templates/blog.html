@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+{% block content %}
+
+    <div class="blog">
+        {% for x in blog %}
+        <h4> {{ x.date }} </h4>
+        <h2> {{ x.title }} </h2>
+        <p> {{ x.description }} </p>
+        {% endfor %}
+    </div>
+
+{% endblock %}
+
+
+
+
+

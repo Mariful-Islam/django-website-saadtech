@@ -1,0 +1,24 @@
+{% extends 'index.html' %}
+{% block content %}
+<table class="bk-tb">
+  <tr>
+    <th>Book Cover</th>
+    <th>Book Title</th>
+    <th>Download</th>
+  </tr>
+  <tr>
+     {% for file in files %}
+    <td>
+        <img src="{{ file.bookcover.url }}" height="100"width="70">
+    </td>
+    <td>
+        {{ file.booktitle }}
+    </td>
+    <td>
+        <a href="{{ file.bookfile.url }}"
+           download="{{ file.bookfile.url }}">Download</a>
+    </td>
+  </tr>
+    {% endfor %}
+</table>
+{% endblock %}

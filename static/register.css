@@ -1,0 +1,87 @@
+form {
+	width: 400px;
+	height: 520px;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	right: 50%;
+	padding: 30px 30px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	margin-top: 14%;
+    margin-bottom: 50%;
+	border: 2px solid darkcyan;
+	border-radius: 7px;
+}
+form p {
+	color: red;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+form h3 {
+	font-weight: bold;
+	font-size: 22px;
+	color: darkcyan;
+	text-align: center;
+	border-bottom: 5px solid darkcyan;
+	border-radius: 5px;
+	padding-bottom: 9px;
+}
+
+form div {
+	padding-top: 30px;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 1.5px;
+	border: 4px solid white;
+	border-radius: 7px;
+}
+
+input[placeholder] {
+	padding-left: 13px;
+}
+
+form input[type=text], form input[type=password], form input[type=email] {
+
+	border: 4px solid whitesmoke;
+	border-radius: 7px;
+	outline: none;
+	height: 20px;
+	font-size: 16px;
+	opacity: 1;
+	color: darkcyan;
+
+}
+
+button[type=submit] {
+	border: 2px solid darkcyan;
+	border-radius: 5px;
+	height: 40px;
+	width: 150px;
+	background: white;
+	font-size: 20px;
+	font-weight: bold;
+	float: right;
+	transition: all 0.1s;
+
+
+}
+
+button[type=submit]:hover{
+	cursor: pointer;
+	color: white;
+    background: darkcyan;
+}
+form input:focus {
+	border: 4px solid darkcyan;
+	border-radius: 7px;
+}
+
+

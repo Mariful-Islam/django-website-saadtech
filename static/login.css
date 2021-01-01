@@ -1,0 +1,18 @@
+.login {
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+}
+footer.contact {
+    margin-top: 600px;
+    color: white;
+    background: black;
+}
+
+#error {
+    color: red;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    text-align: center;
+
+}

@@ -1,0 +1,25 @@
+.blog{
+    margin: 9%;
+}
+
+.blog h4 {
+    margin-bottom: 1%;
+    color: darkcyan;
+    text-align: center;
+}
+
+.blog h2 {
+    border: 0px;
+    border-radius: 22px;
+    background: darkcyan;
+    color: white;
+    padding: 6px 20px;
+    margin-bottom: 3%;
+}
+
+.blog p {
+    margin-bottom: 11%;
+    border: 1px solid darkcyan;
+    padding: 29px 42px;
+    border-radius: 12px;
+}

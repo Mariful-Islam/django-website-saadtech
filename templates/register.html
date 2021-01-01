@@ -1,0 +1,33 @@
+{% extends 'index.html' %}
+
+
+{% block content %}
+
+    <form method="post">
+            {% csrf_token %}
+        {% for message in messages %}
+          <p> {{ message }}</p>
+        {% endfor %}
+
+      	    <h3>User Registration</h3>
+
+            <div>
+              <input type="text" name="first_name" placeholder="First Name" class="form-control">
+      		    <input type="text" name="last_name" placeholder="Last Name" id="lname" required>
+      		    <input type="text" name="username" placeholder="Username" required>
+      		    <input type="email" name="email" id="email" placeholder="Email" required>
+      		    <input type="password" name="password1"  id="password" placeholder="Password" required>
+              <input type="password" name="password2" id="password2" placeholder="Comfirm Password" required>
+              <input type="file" name="fileToUpload" id="fileToUpload">
+            	<button type="submit"> Sign Up </button>
+            </div>
+
+
+      	</form>
+
+
+    </div>
+</form>
+
+
+{% endblock %}

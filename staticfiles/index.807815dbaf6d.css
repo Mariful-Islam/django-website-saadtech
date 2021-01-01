@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.saad {
+	color: darkcyan;
+	text-decoration: none;
+	transition: all 0.2s ease 0s;
+	border: 2px solid darkcyan;
+	border-radius: 6px;
+	border-right: 7px;
+	border-left-width: 12px;
+	padding: 3px 10px;
+}
+.saad:hover {
+	color: white;
+	background: darkcyan;
+	}
+
+header{
+	display: flex;
+	background: #e2f1ff;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 120px ;
+	border: 0px;
+
+}
+
+.navbar nav {
+	padding: 0px 11px;
+	border: 0px;
+	display: inline-block;
+	font-size: 20px;
+	transition: all 0.3s ease 0s;
+}
+
+.navbar nav a{
+	padding: 7px 16px;
+	border: 0px solid darkcyan;
+	text-decoration: none;
+	transition: all 0.1s ease 0s;
+	color: darkcyan;
+	border-radius: 20px;
+	transition: all 0.3s ease 0s;
+}
+.navbar nav a:hover {
+	color: white;
+	background: darkcyan;
+}
+.welcome{
+	border: 0px solid darkcyan;
+	padding-bottom: 119px;
+	transition: all 0.3s ease 0s;
+	color: darkcyan;
+	margin-top: 51px;
+	background: #e2f1ff;
+}
+.welcome:hover{
+	cursor: zoom-out;
+	color: white;
+	background: darkcyan;
+}
+.welcome h1{
+	font-size: 73px;
+	margin-top: -50px;
+	text-align: center;
+	padding: 92px;
+}
+.welcome div p{
+	text-align: center;
+    margin-top: -45px;
+}
+.contact{
+	color: white;
+	background: black;
+}
+
+.contact div{
+	padding-top: 18px;
+    padding-left: 58px;
+    padding-bottom: 100px;
+}
+
+.contact div div{
+	border-left: 2px solid white;
+}
+
+.contact h3{
+    border-bottom: 3px solid white;
+}
+
+.contact li{
+	margin-top: 15px;
+    list-style: none;
+    padding: 12px 0px;
+    display: flex;
+}
+.contact li ul{
+	padding: 0px 23px;
+    padding-left: 0px;
+}
+
+
+
+
